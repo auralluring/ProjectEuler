@@ -1,1 +1,1 @@
-The Project Euler challenges that I have attempted (note: there are some that I do not have record of as they were done before i started keeping them). Mostlypython, though I may try some other languages as well. If it has a number in the title, that means I've finished it.
+The Project Euler challenges that I have attempted (note: there are some that I do not have record of as they were done before i started keeping them). Mostly python, though I may try some other languages as well. If it has a number in the title, that means I've finished it.
