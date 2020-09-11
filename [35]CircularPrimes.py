@@ -17,3 +17,5 @@ for n in primes:
         if all(perm in primes for perm in perms):
             circles += perms
 print(len(circles))
+
+#done!

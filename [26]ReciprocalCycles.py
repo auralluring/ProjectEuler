@@ -13,11 +13,13 @@ def cycle(decimal):
             return 0
     return lengthOfSection
 
-tenPower = long("1" + "0" * 2000)
+tenPower = ("1" + "0" * 2000)
 longestCycle = [0, 0]
 for d in range(2, 1000):
-    decimal = str(long(tenPower/ d))
+    decimal = str((tenPower/ d))
     cycleLength = cycle(decimal)
     if cycleLength > longestCycle[0]:
         longestCycle = [cycleLength, d]
 print(longestCycle)
+
+#done!

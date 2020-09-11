@@ -5,3 +5,5 @@ for _ in range(1000):
     if len(str(n)) > len(str(d)):
         f += 1
 print(f)
+
+#done!

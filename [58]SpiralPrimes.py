@@ -12,3 +12,5 @@ while percent >= 10:
     n += sideLength * 4 - 4
     percent = 100 * primes / diagonals
 print(sideLength)
+
+#done!

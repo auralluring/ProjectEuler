@@ -41,3 +41,5 @@ while len(factorList[0]) < 4 or len(factorList[1]) < 4 or len(factorList[2]) < 4
     factorList[3] = factor(numList[3])
 
 print(numList)
+
+#done!

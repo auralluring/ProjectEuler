@@ -18,6 +18,5 @@ for p in primeSet:
         for j in primePerms[:i]:
             if j - (primePerms[i] - j) in primePerms:
                 print(primePerms[i], j, j - (primePerms[i] - j))
-#print(primeSet)
-#check if the differences match
-#296962999629
+
+#done!

@@ -18,3 +18,4 @@ for word in words:
         triangleWords += 1
 print(triangleWords)
 
+#done!

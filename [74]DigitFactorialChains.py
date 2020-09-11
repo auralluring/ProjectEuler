@@ -10,3 +10,5 @@ for n in range(1, 1000000):
     if len(chain) == 60:
         sixtyTerms += 1
 print(sixtyTerms)
+
+#done!

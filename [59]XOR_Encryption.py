@@ -7,3 +7,5 @@ decrypted = ''
 for i in range(0, len(message), 3):
     decrypted += xor(message[i:i+3], key)
 print(sum(map(ord, decrypted)))
+
+#done!

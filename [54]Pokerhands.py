@@ -159,3 +159,5 @@ for x in hands:
                         if y[5] > z[5]:
                             wins += 1
 print(wins)
+
+#done!

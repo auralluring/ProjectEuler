@@ -6,3 +6,5 @@ for n in  range(1, 1000000):
     if doubleBasePalindrome(n):
         total += n
 print(total)
+
+#done!

@@ -29,3 +29,5 @@ while len(truncatablePrimes) < 11:
     else:
         n += 2
 print(sum(truncatablePrimes))
+
+#done!

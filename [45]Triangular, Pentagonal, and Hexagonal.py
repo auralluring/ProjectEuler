@@ -8,3 +8,5 @@ for h in hexagons[143:]:
     if h in triangles and h in pentagons:
         print(h)
         break
+
+#done!
