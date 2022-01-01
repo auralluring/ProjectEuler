@@ -17,10 +17,10 @@ def divisors(n):
 			divs.extend([i,n/i])
 	return list(set(divs))
 
-#list to store the values of abundant numbers
+# list to store the values of abundant numbers
 ab = []
 
-#For loop to generate the abundant numbers
+# For loop to generate the abundant numbers
 for i in range(12,28123):
 	if sum(divisors(i))>i:
 		ab.append(i)
@@ -34,12 +34,12 @@ for a in range(len(ab)):
 
 print(sum(sums))
 
-#first let us assume all the numbers are 
-#not sum of abundant numbers
+# first let us assume all the numbers are 
+# not sum of abundant numbers
 non_ab_sum = [x for x in range(28123)]
 
-#for loop to generate sum of two 
-#abundant numbers
+# for loop to generate sum of two 
+# abundant numbers
 for i in range(len(ab)):
 	for j in range(i,28123):
 		if ab[i]+ab[j] < 28123:
